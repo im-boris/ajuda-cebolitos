@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chamados.app">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="angular.js"></script>
+        <script src="/aplicativo-chamados/chamados.js"></script>
+        <link rel="stylesheet" href="/aplicativo-chamados/chamados.css">
+
+        <title>Chamados OTRS</title>
+        
+    </head>
+
+    <body ng-controller="chamados.controller as vm">
+
+            <div class="areaTotal">
+                <h1>Chamados OTRS</h1>
+                <div class="tabelaChamados">
+                    <div class="card"ng-repeat="chamado in vm.listaChamados">
+                        <div class="linha">
+                            <div class="rotulo">
+                                <h4>ID</h4>
+                            </div>
+                            <div class="info">
+                                <h4>{{chamado.id}}</h4>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <div class="rotulo">
+                                <h4>Remetente</h4>
+                            </div>
+                            <div class="info">
+                                <h4>{{chamado.nomeRemetente}}</h4>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <div class="rotulo">
+                                <h4>Cargo</h4>
+                            </div>
+                            <div class="info">
+                                <h4>{{chamado.cargo}}</h4>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <div class="rotulo">
+                                <h4>Ramal</h4>
+                            </div>
+                            <div class="info">
+                                <h4>{{chamado.ramal}}</h4>
+                            </div>
+                        </div>
+                        <div class="descricao">
+                            <h4>{{chamado.descricao}}</h4>
+                        </div>
+                        
+                        <!-- <h4>Descricao : {{chamado.descricao}}</h4> -->
+                    </div>
+                </div>
+            </div>
+
+    </body>
+
+</html>

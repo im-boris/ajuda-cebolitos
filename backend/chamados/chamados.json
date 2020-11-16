@@ -1,0 +1,39 @@
+{
+    "listaChamados": [
+        {
+            "id": 1,
+            "nomeRemetente": "Boris",
+            "cargo": "Defensor",
+            "ramal": 1234,
+            "descricao": "fala ae das minhas peça"
+        },
+        {
+            "id": 2,
+            "nomeRemetente": "Cebolitos",
+            "cargo": "Defensor",
+            "ramal": 6784,
+            "descricao": "agora é a taxa do eu sei"
+        },
+        {
+            "id": 3,
+            "nomeRemetente": "Bira",
+            "cargo": "Estagiário",
+            "ramal": 7523,
+            "descricao": "Já falei pra parar"
+        },
+        {
+            "id": 4,
+            "nomeRemetente": "usuaria tonta",
+            "cargo": "é o comando",
+            "ramal": 95782,
+            "descricao": "O técnico mexeu aqui e deu problema lá"
+        },
+        {
+            "id": 5,
+            "nomeRemetente": "Berada",
+            "cargo": "é o comando",
+            "ramal": 95782,
+            "descricao": "Cê vai garantir seu fraga ?"
+        }
+    ]
+}
